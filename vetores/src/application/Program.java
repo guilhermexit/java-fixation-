@@ -3,10 +3,10 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
+
 public class Program {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
@@ -25,6 +25,9 @@ public class Program {
 		double avg = sum / n;
 		
 		System.out.printf("AVERAGE HEIGHT: %.2f%n", avg);
+
+
+
 		
 		sc.close();
 	}
