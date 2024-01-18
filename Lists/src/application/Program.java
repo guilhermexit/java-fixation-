@@ -7,7 +7,6 @@ import java.util.stream.Collectors;
 public class Program {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		List<String> list = new ArrayList<>();
 		
@@ -38,5 +37,4 @@ public class Program {
 		String name = list.stream().filter(x -> x.charAt(0) == 'J').findFirst().orElse(null);
 		System.out.println(name);
 	}
-
 }
